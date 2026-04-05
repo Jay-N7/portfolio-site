@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">DevPortfolio</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><button id="theme-toggle" class="theme-toggle">🌙</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h2>My Projects</h2>
+        <p>A selection of my recent work and academic projects.</p>
+
+        <section class="grid">
+            
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Business Intelligence Dashboard</h3>
+                    <div class="tech-stack">Pandas • SQL • Plotly</div>
+                    <p>Built an end-to-end BI system to analyze sales and customer behavior. Processed and cleaned raw transactional data. Designed interactive dashboards to visualize revenue trends, customer segmentation, and product performance. Derived key business insights including CLV and regional sales patterns.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" target="_blank" class="btn btn-outline">GitHub Repository</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Gesture-Controlled Smart Home</h3>
+                    <div class="tech-stack">Python • OpenCV • Proxmox VE</div>
+                    <p>Designed a smart home automation system using a containerized environment. Developed a backend to process real-time webcam input for gesture recognition using OpenCV. Integrated with smart devices to dynamically adjust lighting and audio based on detected gestures.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" target="_blank" class="btn btn-outline">GitHub Repository</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Click Fraud Detection System</h3>
+                    <div class="tech-stack">Python • Machine Learning</div>
+                    <p>Processed 18M+ records to detect fraudulent ad traffic. Built an ML pipeline with feature engineering and anomaly detection to identify and mitigate click fraud patterns in massive datasets.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" target="_blank" class="btn btn-outline">GitHub Repository</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">AI-Powered Log Intelligence</h3>
+                    <div class="tech-stack">Kafka • FastAPI • Elasticsearch • ML</div>
+                    <p>Built a distributed log processing system to ingest and analyze real-time logs at scale. Developed ML-based anomaly detection (Isolation Forest, LSTM) to identify system failures. Designed an automated remediation engine to trigger recovery actions.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" target="_blank" class="btn btn-outline">GitHub Repository</a>
+                </div>
+            </div>
+
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 [Your Name]. Built with HTML, CSS & Vanilla JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Build a Distributed Log Processing System | Blog</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">DevPortfolio</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+                <li><a href="../blog.html">Blog</a></li>
+                <li><button id="theme-toggle" class="theme-toggle">🌙</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <article style="max-width: 800px; margin: 40px auto;">
+            <a href="../blog.html" style="font-size: 0.9rem; font-weight: 600;">← Back to Blog</a>
+            
+            <h1 style="margin-top: 20px;">How to Build a Distributed Log Processing System</h1>
+            <span class="blog-date" style="margin-bottom: 20px;">April 5, 2026</span>
+            
+            <p>Managing logs in a distributed system can quickly become overwhelming. When building my recent AI-Powered Log Intelligence project, I realized the need for a robust architecture capable of handling high throughput.</p>
+            
+            <h2>The Architecture</h2>
+            <p>To ingest logs at scale, I used <strong>Apache Kafka</strong> as the message broker. Kafka ensures that even during traffic spikes, logs are queued reliably. A <strong>FastAPI</strong> backend was used to process incoming events...</p>
+            
+            <h2>Anomaly Detection</h2>
+            <p>We applied an Isolation Forest algorithm to detect outliers in the log streams. By tracking metrics like error frequency and memory usage spikes, the system learned what a "normal" baseline looked like...</p>
+            
+            </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 [Your Name]. Built with HTML, CSS & Vanilla JS.</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
