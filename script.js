@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const rootElement = document.documentElement;
     
     // Check local storage for saved theme
-    const savedTheme = localStorage.getItem('theme') || 'light';
+    const savedTheme = localStorage.getItem('theme') || 'dark';
     rootElement.setAttribute('data-theme', savedTheme);
     updateIcon(savedTheme);
 
